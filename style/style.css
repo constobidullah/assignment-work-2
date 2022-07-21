@@ -84,6 +84,11 @@ header{
       border-radius: 10px;
    }
 
+   .match-update-part a{
+      text-decoration: none;
+      background-color: ghostwhite;
+      color:black;
+   }
    .grid-dea{
       width: 312px;
       height: 362px;
