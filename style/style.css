@@ -186,7 +186,7 @@ header{
       .container{
          display:grid;
          width: 100%;
-         
+         grid-template-columns: repeat(1,1fr);
          background-color: black;
          color: white;
          border-radius: 15px;   
@@ -220,4 +220,12 @@ header{
       }
 
 
+   }
+
+   @media screen and (max-width:968px) and (min-width: 669px) {
+      
+      .two-parent .all-player-biography{
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+      }
    }
