@@ -173,3 +173,18 @@ body{
       color: deeppink;
       padding: 10px;
      }
+
+
+
+     @media screen and (max-width:668px) {
+         .parents-of-header{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+         }
+
+         .news-update{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+           }
+      
+     }
