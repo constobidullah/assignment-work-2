@@ -109,6 +109,22 @@ header{
 
    /* footer part styeles */
 
+   .view-all-button{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+      
+   }
+
+   .view-all-button a {
+      text-decoration: none;
+      background-color: rgb(247, 87, 87);
+      padding: 10px 20px;
+      color:aliceblue;
+      font-size: 1.5em;
+      border-radius: 8px;
+      display: none;
+   }
 
    footer{
       background-color: black;
@@ -155,4 +171,53 @@ header{
       /* display: flex;
       align-items: center;
       justify-content: center; */
+   }
+
+
+   /* footer styles end here  */
+
+
+   /* -------------------------------------------------
+         responsive design para jay kina ektu dekhi  
+      -------------------------------------------------*/
+
+
+  @media screen and (max-width:668px) {
+      .container{
+         display:grid;
+         width: 100%;
+         
+         background-color: black;
+         color: white;
+         border-radius: 15px;   
+         
+         }
+
+         .container .first-section{
+            width: 100%;
+            
+         }
+
+         .container .second-section{
+            width: 50%;
+            margin-top: 20px;
+         }
+
+         .two-parent{
+            display: grid;
+            
+      }
+
+      .two-parent .all-player-biography{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+      }
+
+      .footer-function{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+
+
    }
